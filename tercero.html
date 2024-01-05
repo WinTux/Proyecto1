@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Un formulario</h1>
+    <form action="#">
+        <p>
+            <label>Usuario:</label>
+            <input type="text" id="miTexto">
+        </p>
+        <p>
+            <label>Password:</label>
+            <input type="password" id="miPassword">
+        </p>
+        <p>
+            <label>Edad:</label>
+            <input type="number" max="30" min="7" id="miTelf">
+        </p>
+        <p>
+            <label>Biografia:</label>
+            <textarea id="area" rows="3" cols="80">TXT</textarea>
+        </p>
+        <p>
+            <label>Seleccione su dorama</label>
+            <select id="dorama">
+                <option value="drm-073">Gun Jun Pio</option>
+                <option value="drm-094">El hotel</option>
+                <option value="drm-101">La secretaria Kim</option>
+            </select>
+        </p>
+        <p>
+            <label>Check boxes</label><br>
+            <input type="checkbox" id="chkAliade"><label>Soy aliade</label><br>
+            <input type="checkbox" id="chkVegano"><label>Soy vegano</label><br>
+            <input type="checkbox" id="chkGeneroFluido"><label>Soy de genero fluido</label><br>
+        </p>
+        <p>
+            <label>Radio buttons</label><br>
+            <input type="radio" id="radM" name="radGenero" value="M" checked><label>Masculino</label> <br>
+            <input type="radio" id="radF" name="radGenero" value="F"><label>Femenino</label><br>
+            <input type="radio" id="radSilla" name="radGenero" value="S"><label>Silla</label><br>
+        </p>
+        <p>
+            <input type="button" value="CLick aqui">
+            <br>
+            <input type="submit" value="REGISTRAR">
+        </p>
+    </form>
+</body>
+</html>
